@@ -37,11 +37,11 @@ if (ScrollTrigger.isTouch !== 1) {
     let heroService = gsap.utils.toArray('.serviceHeaderHero')
 
     heroService.forEach(item => {
-        gsap.fromTo(item, {x: 500}, {
+        gsap.fromTo(item, {x: 1500}, {
             x: 0,
             scrollTrigger: {
                 trigger: item,
-                start: '-450',
+                start: '-750',
                 end: '-50',
                 scrub: true
             }
