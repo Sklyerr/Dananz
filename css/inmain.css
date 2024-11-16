@@ -295,4 +295,9 @@
     line-height: calc(1.4em + 0.5vw);
     margin-top: 1.6vw;
     cursor: pointer;
+    transition: .5s;
+}
+.materialButton:hover {
+    background: #000;
+    color: #FFFFFF;
 }
