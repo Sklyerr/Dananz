@@ -66,8 +66,8 @@ if (ScrollTrigger.isTouch !== 1) {
     let productListText = gsap.utils.toArray('.productListText_item')
 
     productListText.forEach(item => {
-        gsap.fromTo(item , {opacity: 0}, {
-            opacity: 1,
+        gsap.fromTo(item , {opacity: 0, x: -550}, {
+            opacity: 1, x: 0,
             scrollTrigger: {
                 trigger: item,
                 start: '-600',
