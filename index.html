@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dananz</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/inmain.css">
+
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <section class="top">
+                        <div class="logo">
+                            <img src="img/logo.svg" alt="Logo" class="header_logo" id="headerLogo">
+                        </div>
+                        <menu class="menu">
+                            <ul class="menu_list">
+                                <li class="menu_list_items">
+                                    <a href="index.html" class="menu_list_text menu_list_text_bold">Home</a>
+                                </li>
+                                <li class="menu_list_items">
+                                    <a href="about.html" class="menu_list_text">About Us</a>
+                                </li>
+                                <li class="menu_list_items">
+                                    <a href="sevices.html" class="menu_list_text">Services</a>
+                                </li>
+                                <li class="menu_list_items">
+                                    <a href="team.html" class="menu_list_text">Our Teams</a>
+                                </li>
+                            </ul>
+                        </menu>
+                        <button class="button">
+                            <p class="button_header_text" id="contactButton">Contact Us</p>
+                        </button>
+                    </section>
+                </div>
+            </header>
+            <main class="main">
+                <section class="designHigh">
+                    <div class="container">
+                        <div class="designHigh_main">
+                            <div class="designHigh_mainHeader">
+                                <h1 class="designHigh_text">Design your interor with high quality.</h1>
+                                <div class="designHigh_span"></div>
+                            </div>
+                            <p class="designHigh_right">2022<br>ALL RIGHT RESERVED</p>
+                        </div>
+                        <div class="heroIndex">
+                            <img src="img/heroIndex.svg" alt="Hero" class="heroImg">
+                            <div class="designHigh_present" data-speed=".9">
+                                <ul class="designHigh_list">
+                                    <li class="designHigh_list_item">
+                                        <h3 class="designHigh_item_htext">350+</h3>
+                                        <p class="designHigh_item_text">Project Completed</p>
+                                    </li>
+                                    <li class="designHigh_list_item">
+                                        <h3 class="designHigh_item_htext">23+</h3>
+                                        <p class="designHigh_item_text">Professional Teams</p>
+                                    </li>
+                                    <li class="designHigh_list_item">
+                                        <h3 class="designHigh_item_htext">15+</h3>
+                                        <p class="designHigh_item_text">Years Experience</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about">
+                    <div class="container">
+                        <div class="aboutHeader">
+                            <div class="mainHeaderSpan">
+                                <p class="headerSpanText">ABOUT</p>
+                                <span class="headerSpan"></span>
+                            </div>
+                            <h3 class="aboutHeaderText">
+                                “We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”
+                            </h3>
+                        </div>
+                        <div class="aboutMain">
+                            <div class="aboutHero">
+                                <img src="img/aboutHero.svg" alt="Hero" class="aboutHeroImg">
+                                <div class="aboutHeroComent">
+                                    <img src="img/aboutHeroComentImg.svg" alt="Avatar" class="aboutHeroComent_img">
+                                    <div class="abutHeroComentText">
+                                        <h4 class="abutHeroComentTextName">
+                                            Arga Danaan
+                                        </h4>
+                                        <p class="abutHeroComentTextPost">
+                                            CEO of Dananz
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aboutAdv">
+                                <p class="aboutAdvText">
+                                    Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
+                                </p>
+                                <button class="button">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="service">
+                    <div class="container">
+                        <div class="serviceHeader">
+                            <div class="mainHeaderSpan">
+                                <p class="headerSpanText">SERVICE</p>
+                                <span class="headerSpan"></span>
+                            </div>
+                            <div class="serviceHeaderText">
+                                <h3 class="serviceHeaderText_head">
+                                    attractive furniture with the best quality.
+                                </h3>
+                                <p class="serviceHeaderText_item">
+                                    Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
+                                </p>
+                            </div>
+                            <ul class="serviceHeaderList">
+                                <li class="serviceHeaderListItem">
+                                    <div class="serviceHeaderListItem_text">
+                                        <p class="serviceHeaderListItemNum">01</p>
+                                        <p class="serviceHeaderListItemNum">Interior Design</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow" class="serviceHeaderListImg">
+                                </li>
+                                <li class="serviceHeaderListItem">
+                                    <div class="serviceHeaderListItem_text">
+                                        <p class="serviceHeaderListItemNum">02</p>
+                                        <p class="serviceHeaderListItemNum">Consultant</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow" class="serviceHeaderListImg">
+                                </li>
+                                <li class="serviceHeaderListItem">
+                                    <div class="serviceHeaderListItem_text">
+                                        <p class="serviceHeaderListItemNum">03</p>
+                                        <p class="serviceHeaderListItemNum">Construction Consultant</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow" class="serviceHeaderListImg">
+                                </li>
+                            </ul>
+                            <img src="img/ServiceHero.svg" alt="Hero" class="serviceHeaderHero">
+                        </div>
+                    </div>
+                </section>
+                <section class="product">
+                    <div class="container">
+                        <div class="productHeader">
+                            <div class="mainHeaderSpan">
+                                <p class="headerSpanText">product</p>
+                                <span class="headerSpan"></span>
+                            </div>
+                            <div class="productHeaderText">
+                                <h3 class="productHeaderText_head">
+                                    Choose your product themes.
+                                </h3>
+                                <p class="productHeaderText-item">Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.</p>
+                            </div>
+                        </div>
+                        <ul class="productLists">
+                            <li class="productList">
+                                <div class="productListItem">
+                                    <div class="productListItemText">
+                                        <p class="productListItemHead">01</p>
+                                        <p class="productListItemHead">Vintage</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow Right" class="productListItemImg">
+                                </div>
+                                <div class="productListText">
+                                    <p class="productListText_item">the use of simple and limited elements to get the best effect or impression.</p>
+                                </div>
+                            </li>
+                            <li class="productList">
+                                <div class="productListItem">
+                                    <div class="productListItemText">
+                                        <p class="productListItemHead">02</p>
+                                        <p class="productListItemHead">Minimalist</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow Right" class="productListItemImg">
+                                </div>
+                                <div class="productListText">
+                                    <p class="productListText_item">the use of simple and limited elements to get the best effect or impression.</p>
+                                </div>
+                            </li>
+                            <li class="productList">
+                                <div class="productListItem">
+                                    <div class="productListItemText">
+                                        <p class="productListItemHead">03</p>
+                                        <p class="productListItemHead">Modern</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow Right" class="productListItemImg">
+                                </div>
+                                <div class="productListText">
+                                    <p class="productListText_item">the use of simple and limited elements to get the best effect or impression.</p>
+                                </div>
+                            </li>
+                            <li class="productList">
+                                <div class="productListItem">
+                                    <div class="productListItemText">
+                                        <p class="productListItemHead">04</p>
+                                        <p class="productListItemHead">Transitional</p>
+                                    </div>
+                                    <img src="img/arrowRight.svg" alt="Arrow Right" class="productListItemImg">
+                                </div>
+                                <div class="productListText">
+                                    <p class="productListText_item">the use of simple and limited elements to get the best effect or impression.</p>
+                                </div>
+                        </ul>
+                    </div>
+                </section>
+                <section class="material">
+                    <div class="container">
+                        <div class="materialMain">
+                            <div class="materialHeader">
+                                <div class="mainHeaderSpan">
+                                    <p class="headerSpanText">material</p>
+                                    <span class="headerSpan"></span>
+                                </div>
+                                <div class="materialHeaderText">
+                                    <h3 class="materialHeaderText_head">
+                                        choice of materials for quality furniture.
+                                    </h3>
+                                    <p class="materialHeaderText_item">
+                                        You can custom the material as desired. And our furniture uses the best materials and selected quality materials.
+                                    </p>
+                                </div>
+                                <button class="materialButton">
+                                    See Materials
+                                </button>
+                            </div>
+                            <div class="materialHero">
+                                <img src="img/materialHero.svg" alt="Materials" class="materialHeroImg">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <section class="discuss">
+                    <div class="container">
+                        <div class="discuss_content">
+                            <h3 class="discuss_head_text">
+                                Let's Discuss Making Your Interior Like A Dream place!
+                            </h3>
+                            <div class="discuss_text">
+                                <p class="discuss_lowText">
+                                    Contact us below to work together to build your amazing interior
+                                </p>
+                                <button class="button_footer" id="contactButtonFuter">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer_contact">
+                    <div class="container">
+                        <div class="footer_contact_content">
+                            <div class="footer_ad">
+                                <div class="logo">
+                                    <img src="img/logo.svg" alt="Logo" class="header_logo">
+                                </div>
+                                <h3 class="footer_ad_text">
+                                    One of the best furniture agency.
+                                </h3>
+                            </div>
+                            <div class="footer_email">
+                                <div class="footer_email_text">
+                                    <span class="footer_email_span"></span>
+                                    <p class="footer_email_text_low">Enter  your email to get the laterst news</p>
+                                </div>
+                                <div class="footer_field">
+                                    <!-- <label for="login" class="footer_field_label">Email Address</label> -->
+                                    <input type="text" class="footer_field_input" placeholder="Email Address">
+                                    <span class="footer_field_span">
+                                        <button class="footer_field_button">
+                                            <img src="img/arow.svg" alt="Arrow" class="arrowFooter">
+                                        </button>
+                                    </span>
+                                </div>
+                                <div class="footer_folow">
+                                    <p class="footer_folow_text">
+                                        Follow us On
+                                    </p>
+                                    <ul class="footer_imgs">
+                                        <li class="footer_img">
+                                            <img src="img/facebook.svg" alt="Facebook" class="socials">
+                                        </li>
+                                        <li class="footer_img">
+                                            <img src="img/instagram.svg" alt="Instagram" class="socials">
+                                        </li>
+                                        <li class="footer_img">
+                                            <img src="img/tiktok.svg" alt="TikTok" class="socials">
+                                        </li>
+                                        <li class="footer_img">
+                                            <img src="img/youtube.svg" alt="YouTube" class="socials">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

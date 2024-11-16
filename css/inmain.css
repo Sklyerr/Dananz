@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "popinsBold";
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "poppinsMedium";
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "poppinsRegular";
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppinsSemiBold";
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+
+
+
+.designHigh {
+    margin-bottom: 4vw;
+}
+.designHigh_main {
+    position: relative;
+    display: flex;
+}
+.designHigh_text {
+    color: #333;
+    max-width: 47.2vw;
+    max-height: 50.5vh;
+    z-index: +1;
+}
+.designHigh_span {
+    min-width: 40vw;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 4vw;
+    right: 0;
+}
+.designHigh_right {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: "poppinsMedium";
+    font-size: 1.25vw;
+    color: #333;
+    position: absolute;
+    right: 0;
+    top: 8vw;
+    text-wrap: nowrap;
+}
+.heroIndex {
+    margin-top: calc(1.2vw +2vw);
+    position: relative;
+}
+.heroImg {
+    max-width: 86vw;
+    height: calc(86vw / 2);
+}
+.designHigh_present {
+    width: 17.5vw;
+    height: inherit;
+    background: #2C3878;
+    background-size: cover;
+    position: absolute;
+    top: -11vw;
+    right: 9.9vw;
+    padding: 2vw 0 3.8vw 0;
+}
+.designHigh_list {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.designHigh_item_htext {
+    text-align: center;
+    font-size: 3.61vw;
+    color: #fff;
+    line-height: calc(1.6em + 0.5vw);
+}
+.designHigh_item_text {
+    font-size: 1.11vw;
+    color: #fff;
+}
+
+
+
+.about {
+    margin-top: 11vw;
+}
+.aboutHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3vw;
+    margin-bottom: 4.2vw;
+}
+.aboutMain {
+    display: flex;
+    justify-content: space-between;
+}
+.aboutHero {
+    display: flex;
+    position: relative;
+}
+.aboutHeroImg {
+    width: 62vw;
+    height: calc(62vw / 1.68);
+    float: left;
+}
+.aboutHeroComent {
+    position: absolute;
+    top: 20px;
+    right: -14.2vw;
+    width: 19.2vw;
+    height: calc(19.2vw / 3);
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 1.4vw;
+    padding: 1.3vw 3.6vw 1.3vw 1.4vw;
+}
+.aboutHeroComent_img {
+    width: 3.5vw;
+    height: 3.5vw;
+}
+.abutHeroComentText {
+    display: flex;
+    flex-direction: column;
+}
+.abutHeroComentTextName {
+    font-family: "poppinsSemiBold";
+    font-size: 1.25vw;
+    color: #000;
+}
+.abutHeroComentTextPost {
+    color: #9C9C9C;
+    text-wrap: nowrap;
+}
+.aboutAdv {
+    margin-top: 13.2vw;
+}
+.aboutAdvText {
+    width: 16.2vw;
+    height: 10vw;
+    margin-bottom: 2.8vw;
+}
+
+
+
+.service {
+    margin-top: 10.625vw;
+}
+.serviceHeader {
+    width: 61.32vw;
+    height: inherit;
+    background: white;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 2.85vw;
+}
+.serviceHeaderText_head {
+    margin-top: 1.4vw;
+}
+.serviceHeaderText_item {
+    width: 32.7vw;
+    height: 6vw;
+    line-height: calc(1.6em + 0.5vw);
+    margin-top: 1.7vw;
+}
+.serviceHeaderList {
+    display: flex;
+    flex-direction: column;
+    margin: 2.8vw 2.8vw 0 0;
+    gap: 2.4vw;
+}
+.serviceHeaderListItem {
+    display: flex;
+    justify-content: space-between;
+}
+.serviceHeaderListItem_text {
+    display: flex;
+    gap: 2.4vw;
+}
+.serviceHeaderListItemNum {
+    font-size: 1.7vw;
+    font-family: "poppinsSemiBold";
+    color: #333333;
+}
+.serviceHeaderListImg {
+    width: 2.2vw;
+    height: 2.2vw;
+}
+.serviceHeaderHero {
+    width: 74.7vw;
+    height: 36.5vw;
+    position: absolute;
+    right: -22vw;
+    top: 21.1vw;
+    z-index: -1;
+}
+
+
+
+.product {
+    margin-top: 36.25vw;
+}
+.productHeaderText {
+    display: flex;
+    justify-content: space-between;
+}
+.productHeaderText_head {
+    width: 23.4vw;
+    height: 8.5vw;
+    padding-top: 1.4vw;
+}
+.productHeaderText-item {
+    width: 32.8vw;
+    height: 6vw;
+    padding-top: 2.4vw;
+    font-size: 1.25vw;
+}
+.productLists {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin-top: 5vw;
+}
+.productList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vw;
+}
+.productListItem {
+    display: flex;
+    justify-content: space-between;
+}
+.productListItemText {
+    display: flex;
+    gap: 5.6vw;
+}
+.productListItemHead {
+    font-family: "poppinsSemiBold";
+    font-size: 2.2vw;
+    color: #333;
+}
+.productListItemImg {
+    width: 2.2VW;
+    height: 2.2vw;
+}
+.productListText {
+    padding-left: 8.3vw;
+}
+.productListText_item {
+    width: 32.6vw;
+    height: 4vw;
+}
+
+
+
+.material {
+    margin: 11.3vw 0 8.3vw;
+}
+.materialMain {
+    display: flex;
+    justify-content: space-between;
+}
+.materialHeader {
+    margin-top: 3.3vw;
+}
+.materialHeaderText_head {
+    width: 24.2vw;
+    height: 12.7vw;
+    margin-top: 1.4vw;
+}
+.materialHeaderText_item {
+    width: 34.5vw;
+    height: 6vw;
+    margin-top: 0.7vw;
+}
+.materialHeroImg {
+    width: 43.2vw;
+    height: 34vw;
+}
+.materialButton {
+    width: 11vw;
+    height: 3.4vw;
+    background: white;
+    border: 1px solid black;
+    color: #333;
+    font-family: "poppinsMedium";
+    font-size: 1vw;
+    line-height: calc(1.4em + 0.5vw);
+    margin-top: 1.6vw;
+    cursor: pointer;
+}

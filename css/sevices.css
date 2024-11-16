@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "popinsBold";
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "poppinsMedium";
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "poppinsRegular";
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppinsSemiBold";
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+
+
+
+.servicesHeader {
+    margin-top: 6.9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicesHeader_highText {
+    color: #000;
+    margin-bottom: 2.5vw;
+}
+.servicesHeader_itemText {
+    color: #000;
+    width: 35.9vw;
+    height: calc(35.9vw / 5.9);
+    text-align: center;
+    margin-bottom: 3.9vw;
+}
+.servicesHeader_img {
+    width: 86vw;
+    height: calc(86vw / 2.3);
+}
+
+
+
+.servicesAchivment {
+    margin-top: 6.9vw;
+}
+.servicesAchivmentList {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7vw;
+    margin-top: 2.8vw;
+}
+.servicesAchivmentList_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.4vw;
+}
+.servicesAchivmentList_itemImg {
+    width: 51.8vw;
+    height: calc(51.8vw / 2);
+}
+.servicesAchivmentList_textHigh {
+    font-size: 1.6vw;
+}
+.servicesAchivmentList_textItem {
+    width: 23.2vw;
+    height: calc(23.2vw / 2.9);
+}
+
+
+
+.servicesProduct {
+    margin: 6.9vw 0 6.9vw;
+}
+.productHeaderText {
+    display: flex;
+    justify-content: space-between;
+}
+.productHeaderText_head {
+    width: 23.4vw;
+    height: 8.5vw;
+    padding-top: 1.4vw;
+}
+.productHeaderText-item {
+    width: 32.8vw;
+    height: 6vw;
+    padding-top: 2.4vw;
+    font-size: 1.25vw;
+}
+.productLists {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin-top: 5vw;
+}
+.productList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vw;
+}
+.productListItem {
+    display: flex;
+    justify-content: space-between;
+}
+.productListItemText {
+    display: flex;
+    gap: 5.6vw;
+}
+.productListItemHead {
+    font-family: "poppinsSemiBold";
+    font-size: 2.2vw;
+    color: #333;
+}
+.productListItemImg {
+    width: 2.2VW;
+    height: 2.2vw;
+}
+.productListText {
+    padding-left: 8.3vw;
+}
+.productListText_item {
+    width: 32.6vw;
+    height: 4vw;
+}
